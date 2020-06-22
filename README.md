@@ -20,4 +20,4 @@ Commands to Execute Sample Project on Docker:
 Troubleshoot:
 1. When writing application.properties, please cheack where you writing "localhost" it should be replace by respective container name.
 2. While creating .jar file skip the tests.[maven build... -> clean package -> after writing command you see "Skip Tests" checkbox -> tick it. ]
-
+3. While accessing port on local system (browser) use "localhost" instead of container id.
