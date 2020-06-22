@@ -1,4 +1,9 @@
 Eureka + Zuul + Sample Service + Docker
+ 
+{If you want to skip this commands you have to write "docker-compose.yaml" file. 
+ But first you have images already build on Docker othwerwise it will not run 
+ To excecute this file:->Command: docker-composer up
+ }
 
 Commands to Execute Sample Project on Docker:
 
@@ -15,3 +20,4 @@ Commands to Execute Sample Project on Docker:
 Troubleshoot:
 1. When writing application.properties, please cheack where you writing "localhost" it should be replace by respective container name.
 2. While creating .jar file skip the tests.[maven build... -> clean package -> after writing command you see "Skip Tests" checkbox -> tick it. ]
+
